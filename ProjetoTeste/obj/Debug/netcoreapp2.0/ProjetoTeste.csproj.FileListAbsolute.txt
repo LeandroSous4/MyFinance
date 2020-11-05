@@ -1,0 +1,17 @@
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\ProjetoTeste.deps.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\ProjetoTeste.runtimeconfig.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\ProjetoTeste.runtimeconfig.dev.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\ProjetoTeste.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\ProjetoTeste.pdb
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\MyFinance.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\bin\Debug\netcoreapp2.0\MyFinance.pdb
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.csproj.CoreCompileInputs.cache
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.AssemblyInfoInputs.cache
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.AssemblyInfo.cs
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.pdb
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.csprojAssemblyReference.cache
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\ProjetoTeste\obj\Debug\netcoreapp2.0\ProjetoTeste.csproj.CopyComplete

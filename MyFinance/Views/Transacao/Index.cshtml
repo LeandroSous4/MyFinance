@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <title>Usando Bootstrap Modal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<h3>Minhas Transações</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>#</th>
+            <th>ID</th>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+            <th>Conta</th>
+            <th>Plano de Conta</th>
+        </tr>
+    </thead>
+
+    @{
+        foreach (var item in (List<TransacaoModel>)ViewBag.ListaTransacao)
+        {
+            <tbody>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" onclick="Editar(@item.Id.ToString())">Editar</button></td>
+                    <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Excluir</button></td>
+                    <td>@item.Id.ToString()</td>
+                    <td>@item.DataTransacao.ToString()</td>
+                    <td>@item.Tipo.ToString().Replace("R", "Receita").Replace("D", "Despesa")</td>
+                    <td>R$ @item.Valor.ToString()</td>
+                    <td>@item.Descricao.ToString()</td>
+                    <td>@item.Conta.ToString()</td>
+                    <td>@item.PlanoConta.ToString()</td>
+                </tr>
+            </tbody>
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Deseja Excluir a Transação?</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Id da Transação:</strong> @item.Id.ToString()</p>
+                            <p><strong>Data da Transação:</strong> @item.DataTransacao.ToString()</p>
+                            <p><strong>Tipo da Transação:</strong> @item.Tipo.ToString().Replace("R", "Receita").Replace("D", "Despesa")</p>
+                            <p><strong>Valor da Transação:</strong> R$@item.Valor.ToString()</p>
+                            <p><strong>Descrição da Transação:</strong> @item.Descricao.ToString()</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-danger" onclick="Excluir(@item.Id.ToString())">Excluir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</table>
+
+<button type="button" class="btn btn-block btn-primary" onclick="CadastrarTransacao()">Cadastrar Transação</button>
+
+
+
+<script>
+    function CadastrarTransacao() {
+        window.location.href = "../Transacao/CadastrarTransacao";
+    }
+    function Excluir(id) {
+        window.location.href = "../Transacao/ExcluirTransacao/" + id;
+    }
+    function Editar(id) {
+        window.location.href = "../Transacao/CadastrarTransacao/" + id;
+    }
+</script>

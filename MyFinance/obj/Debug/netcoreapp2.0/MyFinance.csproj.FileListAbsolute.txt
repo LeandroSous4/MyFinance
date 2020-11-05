@@ -1,0 +1,11 @@
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.deps.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.runtimeconfig.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.runtimeconfig.dev.json
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.pdb
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.csproj.CoreCompileInputs.cache
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.AssemblyInfoInputs.cache
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.AssemblyInfo.cs
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.dll
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.pdb
+C:\Users\leand\Documents\Projetos_Desenvolvimentos_C#\ASP.Net\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.csprojAssemblyReference.cache
